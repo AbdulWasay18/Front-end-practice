@@ -1,23 +1,41 @@
-
-body{
-    display: flex;
-    background-color:  hsl(217, 54%, 11%);
-    color: white;
-    flex-direction: column;
-    align-items: center;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  display: flex;
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+}
+.wrap {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .card {
-    background-color: hsl(216, 50%, 16%);
-    border-radius: 10px;
-    border-radius: 30px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 30px;
+  width: 340px;
+}
+
+.image {
+  width: 270px;
+}
+.avatar img {
+    width: 25px;
 }
 .cripto {
-    color: hsl(178, 100%, 50%)
+  color: hsl(178, 100%, 50%);
 }
 .attribution {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
