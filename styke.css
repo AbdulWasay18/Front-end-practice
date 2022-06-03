@@ -1,0 +1,22 @@
+
+body{
+    display: flex;
+    background-color:  hsl(217, 54%, 11%);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+.cripto {
+    color: hsl(178, 100%, 50%)
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
