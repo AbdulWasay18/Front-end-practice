@@ -1,6 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500&display=swap');
 body {
   display: flex;
+  font-family: Outfit;
   background-color: hsl(217, 54%, 11%);
   color: white;
   flex-direction: column;
@@ -30,7 +31,6 @@ p {
   width: 340px;
   border-radius: 14px;
 }
-
 .cripto {
   color: hsl(178, 100%, 50%);
 }
