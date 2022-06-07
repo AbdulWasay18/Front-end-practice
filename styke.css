@@ -19,16 +19,18 @@ p {
 }
 .card {
   background-color: hsl(216, 50%, 16%);
-  border-radius: 30px;
+  border-radius: 20px;
   width: 340px;
+  padding: 20px;
+}
+.info {
+  display: inline-block;
+}
+.image {
+  width: 340px;
+  border-radius: 14px;
 }
 
-.image {
-  width: 270px;
-}
-.avatar img {
-    width: 25px;
-}
 .cripto {
   color: hsl(178, 100%, 50%);
 }
@@ -38,4 +40,27 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+hr {
+  height: 1px;
+}
+.avatar {
+	width: 40px;
+	border: solid 1px white;
+	border-radius: 50%;
+}
+.creator {
+	color:  hsl(215, 51%, 70%);
+	font-weight: 300;
+}
+strong {
+	color: white;
+	font-weight: 400;
+}
+h2:hover, strong:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+.date{
+  margin-left: 100px;
 }
